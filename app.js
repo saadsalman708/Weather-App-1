@@ -26,7 +26,7 @@ async function getWeather() {
 
     try {
         
-        const apiUrl = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${cityName}&aqi=no`;
+        const apiUrl = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${cityName}&aqi=no`;
 
         const res = await fetch(apiUrl);
 
