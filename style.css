@@ -1,0 +1,17 @@
+.weather-container {
+        width: 50%;
+    }
+
+
+
+
+
+
+
+
+    
+    @media (max-width: 768px) {
+        .weather-container {
+            width: 90%;
+        }
+    }
